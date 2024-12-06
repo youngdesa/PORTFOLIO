@@ -1,0 +1,47 @@
+/* Для планшета */
+@media(max-width:1080px){
+
+.header-row{
+  column-gap:30px;
+}
+.header-row img{
+border-radius: 30px;
+width: 300px;
+}
+h1{
+  font-size:52px ;
+}
+.header-text p{
+  font-size: 22px;
+}
+.portfolio h2, .contacts-title{
+ 
+  font-size: 42px;
+  
+}
+}
+/* Для телефона */
+@media(max-width:1080px){
+  header{
+  
+  padding-bottom: 40px;
+  padding-top: 20px; 
+  border-bottom-right-radius: 60px;
+}
+h1{
+  font-size:32px ;
+}
+.header-text p{
+  font-size: 18px;
+}
+.header-row{
+flex-direction: column;  
+  align-items:flex-start;
+  row-gap:20px;
+}
+.header-row img{
+border-radius: 80px;
+max-width: 100%;
+width:auto;
+}
+}
